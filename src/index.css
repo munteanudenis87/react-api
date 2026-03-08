@@ -66,8 +66,37 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-.actress-info{
-  background-color: aquamarine;
-  border: solid gray;
+.actress article{
+  display: flex;
+  background-color: rgb(226, 236, 233);
+  border: solid black;
+  border-radius: 10px;
   margin-top: 1rem;
+  padding-left: 1rem;
+}
+.actors article{
+  display: flex;
+  background-color: rgb(226, 236, 233);
+  border: solid black;
+  border-radius: 10px;
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+.actress{
+  border: solid red;
+  background-color: #fac2e4;
+  padding: 1rem;
+}
+.actors{
+  border: solid rgb(3, 50, 136);
+  background-color: #557dff;
+  padding: 1rem;
+}
+.actress-image{
+  flex: 2 1 0%;
+}
+.actress-img{
+  height: 250px;
+  object-fit: cover;
+  object-position: top;
 }
